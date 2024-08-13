@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Cinema_Room_REST_Service__Kotlin_-task:main" external.linked.project.path="$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Cinema Room REST Service (Kotlin)" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 17" allPlatforms="JVM [17]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-java-parameters -Xjsr305=strict" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="allowNoSourceFiles" arg="true" />
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task/build/classes/kotlin/main" />
+            <stringArg name="jvmTarget" arg="17" />
+            <stringArg name="moduleName" arg="Cinema_Room_REST_Service__Kotlin_-task" />
+            <stringArg name="apiVersion" arg="1.8" />
+            <stringArg name="languageVersion" arg="1.8" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.8.20/3355c8a7b895f1bd9b5fdf18e89971152518a93b/kotlin-gradle-plugin-model-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.8.20/1d909998b74b7873ac71bd04ce5f145f3d68bcfd/kotlin-gradle-plugin-api-1.8.20-gradle76.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.8.20/1d909998b74b7873ac71bd04ce5f145f3d68bcfd/kotlin-gradle-plugin-api-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.8.20/51c8efbe177ebcaa89c82d01663c60060a120dd2/kotlin-scripting-jvm-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.8.20/f19996e3a40658541fe2108c483fd3301c4a3416/kotlin-scripting-common-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.8.20/e72fc5e03ec6c064c678a6bd0d955c88d55b0c4a/kotlin-stdlib-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.20/5eddaaf234c8c49d03eebeb6a14feb7f90faca71/kotlin-stdlib-common-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-annotations/1.8.20/e4254b95d5b4abe86ba97afb6214877f9fc76a05/kotlin-gradle-plugin-annotations-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.8.20/d490644e215629f7f23f1c9ba5eb8bf96f4b8504/kotlin-native-utils-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-project-model/1.8.20/1c22ceafd66b8e1dcd9e9c662a1bbb276528d4c7/kotlin-project-model-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-core/1.8.20/6ab3d6c8e8d13c2748ecf0b74978fbd191def027/kotlin-tooling-core-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.8.20/c850771e723701f9d63dbcf641429c0f29290074/kotlin-script-runtime-1.8.20.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-io/1.8.20/845b590111343b11034db2a6febeac83102a8cbb/kotlin-util-io-1.8.20.jar</arg>
+                <arg>$KOTLIN_BUNDLED$/lib/noarg-compiler-plugin.jar</arg>
+                <arg>$KOTLIN_BUNDLED$/lib/allopen-compiler-plugin.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions">
+              <args>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=javax.persistence.Entity</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=javax.persistence.Embeddable</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=javax.persistence.MappedSuperclass</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=jakarta.persistence.Entity</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=jakarta.persistence.Embeddable</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:annotation=jakarta.persistence.MappedSuperclass</arg>
+                <arg>plugin:org.jetbrains.kotlin.noarg:invokeInitializers=false</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.stereotype.Component</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.transaction.annotation.Transactional</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.scheduling.annotation.Async</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.cache.annotation.Cacheable</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.boot.test.context.SpringBootTest</arg>
+                <arg>plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.validation.annotation.Validated</arg>
+              </args>
+            </arrayArg>
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Cinema Room REST Service (Kotlin)/task/src/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.8.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.8.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.33" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:10.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:10.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:10.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.19.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:2.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:6.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.19.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
+  </component>
+</module>

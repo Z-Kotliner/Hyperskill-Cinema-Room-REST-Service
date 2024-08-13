@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema_Room_REST_Service_(Kotlin).iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema_Room_REST_Service_(Kotlin).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room REST Service (Kotlin)/task/Cinema_Room_REST_Service_(Kotlin).Cinema_Room_REST_Service__Kotlin_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_REST_Service_(Kotlin).util.test.iml" />
+    </modules>
+  </component>
+</project>
