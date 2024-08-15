@@ -1,7 +1,6 @@
 package cinema.persistencelayer
 
-import cinema.datalayer.getCinemaHallInfo
-import cinema.datalayer.purchaseSeatTicket
+import cinema.datalayer.*
 import org.springframework.stereotype.Repository
 
 /**
@@ -9,7 +8,10 @@ import org.springframework.stereotype.Repository
  */
 @Repository
 class CinemaHallRepository {
+
     fun getCinemaInfo() = getCinemaHallInfo()
 
     fun purchaseTicketForSeat(row: Int, col: Int) = purchaseSeatTicket(row, col)
+
+    fun returnTicket(token: Map<String, String>) = returnSeatTicket(token)
 }

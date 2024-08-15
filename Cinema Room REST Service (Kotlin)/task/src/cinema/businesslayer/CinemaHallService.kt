@@ -1,6 +1,7 @@
 package cinema.businesslayer
 
 import cinema.datalayer.CinemaHall
+import cinema.datalayer.PurchasedTicket
 import cinema.datalayer.SeatTicket
 import cinema.persistencelayer.CinemaHallRepository
 import org.springframework.stereotype.Service
@@ -27,9 +28,13 @@ class CinemaHallService(private val cinemaHallRepository: CinemaHallRepository) 
             PurchaseResult.Error("The ticket has been already purchased!")
         }
     }
+
+    fun returnSeatTicket(token: Map<String, String>): Map<String, SeatTicket>? {
+        return cinemaHallRepository.returnTicket(token)
+    }
 }
 
 sealed class PurchaseResult {
-    data class Success(val ticket: SeatTicket) : PurchaseResult()
+    data class Success(val ticket: PurchasedTicket) : PurchaseResult()
     data class Error(val error: String) : PurchaseResult()
 }
