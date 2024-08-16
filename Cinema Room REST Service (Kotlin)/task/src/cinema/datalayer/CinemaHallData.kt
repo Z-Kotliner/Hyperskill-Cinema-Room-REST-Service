@@ -8,10 +8,11 @@ import java.util.UUID
 
 const val ROWS = 9
 const val COLS = 9
+const val MANAGERIAL_PASSWORD = "super_secret"
 
 
 /**
- * Cinema seat holder is a 2DMatrix Array that represents cinema hall rows and columns
+ * Cinema seat holder is a 2D Matrix Array that represents cinema hall rows and columns
  * Each array cell represents a seat and holds a Triple of information about a seat
  *
  *  1. Availability - initialize each seat with A - Available , X - booked
@@ -76,6 +77,17 @@ fun identifySeatWithToken(token: String): SeatTicket? {
                 return seatTicket
             }
         }
+    }
+    return null
+}
+
+fun getCinemaStatistics(password: String?): CinemaHallStat? {
+    if (!password.isNullOrEmpty() && password == MANAGERIAL_PASSWORD) {
+        val currentSales = seatMatrix.flatten().filter { it.first == "X" }.sumOf { it.second }
+        val availableSeats = seatMatrix.flatten().count { it.first == "A" }
+        val purchasedTickets = ROWS * COLS - availableSeats
+
+        return CinemaHallStat(currentSales, availableSeats, purchasedTickets)
     }
     return null
 }

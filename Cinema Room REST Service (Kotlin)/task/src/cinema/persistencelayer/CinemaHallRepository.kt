@@ -14,4 +14,6 @@ class CinemaHallRepository {
     fun purchaseTicketForSeat(row: Int, col: Int) = purchaseSeatTicket(row, col)
 
     fun returnTicket(token: Map<String, String>) = returnSeatTicket(token)
+
+    fun getStatistics(password: String): CinemaHallStat? = getCinemaStatistics(password)
 }
